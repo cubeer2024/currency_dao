@@ -37,30 +37,25 @@ mastodon_link                             :
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
-
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : 高级行情图
+    description                           : 高级行情图表，支持多种货币对的实时数据展示。更智能的分析工具。
+    fontawesome_icon_name                 : chart-line
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : 人工智能对话
+    description                           : 直接与人工智能对话，获取实时汇率信息和趋势分析。
+    fontawesome_icon_name                 : robot
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : 模拟分析  
+    description                           : 第一个提供手机端模拟K线分析的应用。支持多种货币对的模拟交易。
+    fontawesome_icon_name                 : chart-bar
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : 学生优惠政策
+    description                           : 为在校学生提供6个月到36个月的免费使用优惠.
+    fontawesome_icon_name                 : graduation-cap
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : 汇率预警
+    description                           : 订阅汇率预警，第一时间获取汇率变动通知。
+    fontawesome_icon_name                 : bell
 
 
 
