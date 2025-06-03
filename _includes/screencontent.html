@@ -8,7 +8,7 @@
             //     $(".iphoneScreen").removeClass("hidden");
             //     console.log("{{ file.path }}");
             // });
-            $(function () {
+ $(function () {
     // 存储所有截图路径
     const screenshots = [
         {% for file in site.static_files %}
@@ -38,13 +38,26 @@
         }
 
         // 每 3 秒切换图片
-        setInterval(cycleImages, 1000);
+        setInterval(cycleImages, 3000);
 
         // 调试：输出所有图片路径
         screenshots.forEach(path => console.log(path));
     }
 });
         </script>
+{% if screenshots.size > 0 %}
+<style>
+    .iphoneScreen {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .hidden {
+        display: none;
+    }
+</style>
+{% endif %}
     {% elsif file.path contains 'assets/videos/' %}
         {% unless file.path contains 'assets/videos/Place-video-files-here.txt' %}
             <script>
